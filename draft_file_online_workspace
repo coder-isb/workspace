@@ -38,3 +38,33 @@ Snowflake | DB2 | Ab Initio | SQL | Cloud Platform (AWS / Azure / GCP – specif
 * Enhanced scalability and enabled near real-time access to enrollment and plan data for analytics, reporting, and compliance needs.
 * Streamlined management of Group–Subgroup–Rider–Member relationships, improving data accuracy and traceability across the enrollment lifecycle.
 
+
+----------------------------
+
+Here’s a **crisp, resume-ready version** of the same project summary — concise but still rich in key details:
+
+---
+
+### **Project: Cloud Data Warehouse for Member Enrollment – Insurance Domain**
+
+**Client:** Leading Health Insurance Firm
+**Role:** Data Engineer | Duration: [e.g., Jan 2024 – Dec 2024]
+
+**Summary:**
+Migrated the client’s legacy **DB2 and Ab Initio-based data warehouse** to a modern **Snowflake Cloud Data Warehouse**, focusing on **Member Enrollment** data covering **Groups, Subgroups, Riders, Plans, and Members**. Designed scalable data models and automated data pipelines to streamline enrollment data processing and analytics.
+
+**Key Contributions:**
+
+* Designed and implemented **Snowflake data models** for Group, Subgroup, Rider, and Member hierarchies.
+* Re-engineered legacy **ETL workflows** into **cloud-native pipelines** using Snowflake SQL and orchestration tools (Airflow / ADF).
+* Developed transformation logic for enrollment activities such as new enrollments, plan changes, and rider additions/terminations.
+* Built **data quality and audit frameworks** ensuring high accuracy and compliance.
+* Improved **data load performance by 40%**, enabling near real-time enrollment reporting and analytics.
+
+**Tech Stack:** Snowflake | DB2 | Ab Initio | SQL | Airflow / ADF | Python | Cloud (AWS / Azure / GCP)
+
+---
+
+Would you like me to make it even **shorter (3–4 lines)** for a **resume project highlights section**?
+
+
