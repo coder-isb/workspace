@@ -1,1 +1,40 @@
 
+
+### **Project: Cloud Data Warehouse Implementation for Member Enrollment – Insurance Domain**
+
+**Client:** Leading Health Insurance Firm
+**Duration:** [Insert Duration, e.g., Jan 2024 – Dec 2024]
+**Role:** Data Engineer / Cloud Data Warehouse Developer
+
+**Project Summary:**
+The project focused on modernizing the client’s **Member Enrollment Data Warehouse** by migrating from an on-premise **IBM DB2** system with **Ab Initio**-based orchestration to a **cloud-native data warehouse on Snowflake**. The new solution was designed to support complex enrollment structures involving **Groups, Subgroups, Riders, Plans, and Members**, ensuring scalable, efficient, and accurate data integration for downstream analytics and reporting.
+
+**Business Context:**
+The member enrollment process in the insurance domain involves managing multiple hierarchies and relationships:
+
+* **Group:** Represents an employer or organization that sponsors insurance coverage for its employees or members.
+* **Subgroup:** Defines subdivisions within a group (e.g., department or regional divisions) with distinct coverage rules.
+* **Plan / Rider:** Specifies coverage options or additional benefits (e.g., dental, vision, or wellness riders) attached to the base insurance plan.
+* **Member:** Refers to an individual subscriber or dependent enrolled under a plan.
+
+The project aimed to integrate and harmonize these entities into a unified data model to support eligibility validation, billing, claims processing, and regulatory reporting.
+
+**Key Responsibilities:**
+
+* Conducted impact analysis of the existing **DB2 schema** and **Ab Initio ETL workflows** for Group, Subgroup, Rider, Plan, and Member datasets.
+* Designed a **Snowflake-based dimensional model** encompassing staging, integration, and presentation layers to represent hierarchical enrollment relationships.
+* Developed **ETL pipelines** for ingestion and transformation of enrollment data using **Snowflake SQL**, **Snowpipe**, and **cloud orchestration tools** (e.g., Airflow / Azure Data Factory / AWS Glue – specify as applicable).
+* Implemented **data mapping and transformation logic** to handle complex scenarios like retroactive enrollments, plan changes, rider additions, and member terminations.
+* Established **data quality checks**, referential integrity constraints, and audit frameworks to ensure accuracy and compliance.
+* Partnered with business analysts and actuarial teams to validate enrollment metrics and support downstream analytics such as enrollment trends, coverage utilization, and premium calculation.
+
+**Technologies Used:**
+Snowflake | DB2 | Ab Initio | SQL | Cloud Platform (AWS / Azure / GCP – specify) | Airflow / ADF | Python | Git | Data Modeling (Star/Snowflake Schema)
+
+**Outcome:**
+
+* Successfully migrated and modernized the legacy enrollment warehouse to Snowflake.
+* Improved data refresh and processing time by over **40%**.
+* Enhanced scalability and enabled near real-time access to enrollment and plan data for analytics, reporting, and compliance needs.
+* Streamlined management of Group–Subgroup–Rider–Member relationships, improving data accuracy and traceability across the enrollment lifecycle.
+
