@@ -169,3 +169,41 @@ show all classes..ready to be copy pasted - hrms/
 │
 └── utils/                   # Optional utility functions
     └── helpers.py           # e.g., validation, extra helpers
+--------
+hrmx-api/                       # Project root
+├── app/                        # All FastAPI app code
+│   ├── __init__.py             # Makes 'app' a Python package
+│   ├── main.py                 # FastAPI app entry point
+│
+│   ├── auth/                   # Authentication module
+│   │   ├── __init__.py
+│   │   ├── api.py              # Login/Register endpoints
+│   │   ├── service.py          # Business logic for auth
+│   │   └── schema.py           # Pydantic models for auth
+│
+│   ├── employee/               # Employee module
+│   │   ├── __init__.py
+│   │   ├── api.py              # CRUD endpoints for employees
+│   │   ├── service.py          # Employee business logic
+│   │   └── schema.py           # Pydantic models for employee
+│
+│   ├── db/                     # Database connection & models
+│   │   ├── __init__.py
+│   │   ├── database.py         # SQLAlchemy engine, SessionLocal, Base
+│   │   └── models.py           # All table models
+│
+│   ├── dependencies/           # Shared dependencies
+│   │   ├── __init__.py
+│   │   └── db.py               # get_db() dependency for DB sessions
+│
+│   ├── core/                   # Core utilities
+│   │   ├── __init__.py
+│   │   └── security.py         # Password hashing & JWT utilities
+│
+│   └── utils/                  # Optional utilities
+│       ├── __init__.py
+│       └── helpers.py          # Extra helper functions
+│
+├── requirements.txt            # All Python dependencies
+├── Dockerfile                  # For building Docker image
+└── docker-compose.yml          # For DB + app containers
