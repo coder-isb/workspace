@@ -1,2 +1,67 @@
 Test file
+mkdir hrms-api
+cd hrms-api
 
+Step 2 — Create Virtual Environment
+python -m venv venv
+
+Activate it:
+
+venv\Scripts\activate
+
+Your terminal should show:
+
+(venv)
+
+--
+Step 3 — Install Dependencies
+pip install fastapi uvicorn sqlalchemy psycopg2-binary python-dotenv
+
+Save dependencies:
+
+pip freeze > requirements.txt
+Your project now:
+
+hrms-api
+│
+├── venv
+└── requirements.tx
+-----
+
+Step 4 — Create Basic Project Structure
+
+Create folders:
+
+mkdir app
+mkdir app\core
+mkdir app\database
+mkdir app\models
+mkdir app\schemas
+mkdir app\repositories
+mkdir app\services
+mkdir app\api
+
+Create files:
+
+type nul > app\main.py
+type nul > app\core\config.py
+type nul > app\database\session.py
+
+Project now:
+
+hrms-api
+│
+├── app
+│   ├── main.py
+│   │
+│   ├── core
+│   │   └── config.py
+│   │
+│   ├── database
+│   │   └── session.py
+│   │
+│   ├── models
+│   ├── schemas
+│   ├── repositories
+│   ├── services
+│   └── api
