@@ -76,7 +76,37 @@ python main.py
 OR (recommended way):
 
 uvicorn main:app --reload
+What happens here
 
+__name__ == "__main__" means the block runs only when you execute the file directly:
+
+python main.py
+
+reload=True tells Uvicorn to watch for file changes and restart the server automatically.
+
+So if you run:
+
+python main.py
+
+and edit the file → the server reloads automatically.
+
+⚠️ Important detail
+
+If you start the server like this:
+
+uvicorn main:app --reload
+
+Then the if __name__ == "__main__": block does not run at all, because Uvicorn imports the app instead of executing the file.
+
+In that case, Uvicorn handles reload itself.
+
+Recommended practice (most common)
+
+Do not include uvicorn in the code. Just run:
+
+uvicorn main:app --reload
+
+And keep main.py simple:
 ---
 Open in browser
 
