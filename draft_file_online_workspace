@@ -16,6 +16,7 @@ Your terminal should show:
 --
 Step 3 — Install Dependencies
 pip install fastapi uvicorn sqlalchemy psycopg2-binary python-dotenv
+pip install fastapi uvicorn sqlalchemy psycopg2-binary python-jose passlib[bcrypt]
 
 Save dependencies:
 
