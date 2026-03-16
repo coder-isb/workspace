@@ -117,6 +117,13 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app.main:app", host="127.0.0.1", port=8000, reload=True)
 ---
+Recommended for enterprise / Docker-ready workflow
+
+Local dev: uvicorn app.main:app --reload
+
+Local Python: python -m app.main
+
+Docker dev/prod: docker-compose up or gunicorn app.main:app
 Open in browser
 
 After running, open:
