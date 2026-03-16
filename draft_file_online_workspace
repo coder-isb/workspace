@@ -20,6 +20,7 @@ pip install fastapi uvicorn sqlalchemy psycopg2-binary python-dotenv
 Save dependencies:
 
 pip freeze > requirements.txt
+pip install fastapi uvicorn
 Your project now:
 
 hrms-api
