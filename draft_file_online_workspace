@@ -76,3 +76,8 @@ python main.py
 OR (recommended way):
 
 uvicorn main:app --reload
+
+---
+{
+  "message": "HRMS API Running"
+}
