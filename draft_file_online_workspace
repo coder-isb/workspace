@@ -108,6 +108,9 @@ Do not include uvicorn in the code. Just run:
 uvicorn main:app --reload
 
 And keep main.py simple:
+
+IMP -- This is to import every folder-Now project needs to be exucted from hrmx folder.
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ---
 Open in browser
 
