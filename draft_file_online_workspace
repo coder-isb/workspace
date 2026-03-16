@@ -78,6 +78,21 @@ OR (recommended way):
 uvicorn main:app --reload
 
 ---
+Open in browser
+
+After running, open:
+
+API root:
+
+http://127.0.0.1:8000
+
+Interactive docs (Swagger UI):
+
+http://127.0.0.1:8000/docs
+
+Alternative docs (ReDoc):
+
+http://127.0.0.1:8000/redoc
 {
   "message": "HRMS API Running"
 }
