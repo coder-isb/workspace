@@ -207,3 +207,92 @@ hrmx-api/                       # Project root
 ├── requirements.txt            # All Python dependencies
 ├── Dockerfile                  # For building Docker image
 └── docker-compose.yml          # For DB + app containers
+
+===========================================
+from pyspark.sql import functions as F
+
+def validate_all_steps(originaldf, fields, date_format="yyyy-MM-dd", range_checks=None):
+    """
+    Stepwise validation with final valid and invalid DataFrames
+
+    Parameters:
+        originaldf : Spark DataFrame
+        fields : list of Field objects with attributes: name, mandatory, sqltype
+        date_format : string, format for date parsing
+        range_checks : list of tuples (field_name, min_val, max_val) for numeric range validation
+
+    Returns:
+        valid_df : DataFrame with rows passing all checks
+        invalid_df : DataFrame with rows failing any check, with two extra columns:
+                     - error_details : array of descriptive messages
+                     - error_fields : array of field names that failed
+    """
+
+    # Start from originaldf
+    df = originaldf.withColumn("error_details", F.array()) \
+                   .withColumn("error_fields", F.array())
+
+    # -------------------------
+    # Step 1: Date validation
+    # -------------------------
+    date_fields = [f for f in fields if f.sqltype.lower() == "date"]
+    for f in date_fields:
+        col_expr = F.col(f.name).cast("string")
+        if f.mandatory:
+            cond = col_expr.isNull() | (F.trim(col_expr) == "") | F.to_date(col_expr, date_format).isNull()
+        else:
+            cond = col_expr.isNotNull() & (F.trim(col_expr) != "") & F.to_date(col_expr, date_format).isNull()
+
+        df = df.withColumn(
+            "error_details",
+            F.when(cond, F.concat(F.col("error_details"), F.array(F.lit(f"{f.name}: INVALID_DATE"))))
+             .otherwise(F.col("error_details"))
+        ).withColumn(
+            "error_fields",
+            F.when(cond, F.concat(F.col("error_fields"), F.array(F.lit(f.name))))
+             .otherwise(F.col("error_fields"))
+        )
+
+    # -------------------------
+    # Step 2: Mandatory fields
+    # -------------------------
+    mandatory_fields = [f for f in fields if f.mandatory]
+    for f in mandatory_fields:
+        col_expr = F.col(f.name).cast("string")
+        cond = col_expr.isNull() | (F.trim(col_expr) == "")
+
+        df = df.withColumn(
+            "error_details",
+            F.when(cond, F.concat(F.col("error_details"), F.array(F.lit(f"{f.name}: MANDATORY_MISSING"))))
+             .otherwise(F.col("error_details"))
+        ).withColumn(
+            "error_fields",
+            F.when(cond, F.concat(F.col("error_fields"), F.array(F.lit(f.name))))
+             .otherwise(F.col("error_fields"))
+        )
+
+    # -------------------------
+    # Step 3: Range checks
+    # -------------------------
+    if range_checks:
+        for field_name, min_val, max_val in range_checks:
+            col_expr = F.col(field_name)
+            cond = (col_expr < min_val) | (col_expr > max_val)
+
+            df = df.withColumn(
+                "error_details",
+                F.when(cond, F.concat(F.col("error_details"), F.array(F.lit(f"{field_name}: OUT_OF_RANGE"))))
+                 .otherwise(F.col("error_details"))
+            ).withColumn(
+                "error_fields",
+                F.when(cond, F.concat(F.col("error_fields"), F.array(F.lit(field_name))))
+                 .otherwise(F.col("error_fields"))
+            )
+
+    # -------------------------
+    # Final split into valid & invalid
+    # -------------------------
+    valid_df = df.filter(F.size(F.col("error_details")) == 0)
+    invalid_df = df.filter(F.size(F.col("error_details")) > 0)
+
+    return valid_df, invalid_df
