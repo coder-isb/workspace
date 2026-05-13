@@ -27,72 +27,225 @@ show all classes..ready to be copy pasted - hrms/
 
 
     ====
-    Run this with your team 👇
+  Start with energy:
 
-Today I’ve got some interesting **FACT or MYTH** questions for you.
-Your job: decide quickly—no overthinking 😄
+“Today’s Scrum entertainment session is basically about how our brains secretly troll us every day 😄”
 
----
 
-**1. “The first website ever created is still online today.”**
-Vote: ✅ Fact
-Why: Created by Tim Berners-Lee (the scientist who invented the web in 1989), the original site is still accessible.
+“Three things we all experience:
 
----
 
-**2. “More training data always improves model performance.”**
-Vote: ❌ Myth
-Why: After a point, **data quality matters more than quantity**—noisy or biased data can reduce accuracy.
+Songs stuck in our head
 
----
 
-**3. “Python is named after the snake because its creator liked reptiles.”**
-Vote: ❌ Myth
-Why: It’s named after Monty Python (a famous 1970s comedy group known for absurd humor), not snakes.
+Checking phones without reason
 
----
 
-**4. “Temperature in LLMs controls randomness of output.”**
-Vote: ✅ Fact
-Why: It’s a parameter in AI models—higher values increase randomness, lower values make outputs more predictable.
+Dark mode obsession”
 
----
 
-**5. “Dark mode reduces battery usage on all smartphones.”**
-Vote: ❌ Myth
-Why: It mainly helps on **OLED screens** (where pixels turn off individually), not LCDs.
 
----
 
-**6. “Serverless means no servers to manage at all.”**
-Vote: ❌ Myth
-Why: Servers still exist—you just don’t manage them directly; cloud providers handle infrastructure.
+🎵 Topic 1 — Why Songs Get Stuck in Your Head (1.5 min)
+Ask the team:
 
----
+“Has anyone had a random reel song looping in their brain recently?”
 
-**7. “The ‘@’ symbol in email addresses was chosen because it was rarely used in names.”**
-Vote: ✅ Fact
-Why: Ray Tomlinson (the engineer who sent the first email in 1971) chose it to clearly separate user and machine.
+(Guaranteed reactions 😄)
+Then say:
 
----
+“Scientists actually call this an Earworm.”
 
-**8. “Bluetooth is named after a Viking king.”**
-Vote: ✅ Fact
-Why: Named after Harald Bluetooth (a 10th-century king who united tribes—like Bluetooth connects devices).
+Why it happens:
 
----
 
-**9. “Observability is the same as monitoring.”**
-Vote: ❌ Myth
-Why: Monitoring shows **what failed**, observability helps understand **why it failed** using logs, metrics, and traces.
+repetitive lyrics
 
----
 
-**10. “Vector databases are only useful for AI applications.”**
-Vote: ❌ Myth
-Why: Also used in **search engines, recommendation systems, and fraud detection** for similarity matching.
+catchy rhythm
 
----
 
-Let’s see who gets the most right 👀
+incomplete musical patterns
+
+
+Your brain loves finishing patterns, so it keeps replaying the song.
+
+Fun Fact
+
+“Around 90% of people experience earworms weekly.”
+
+
+Funny Research
+
+“Research says chewing gum can sometimes reduce earworms.”
+
+Because it interferes with the brain’s internal music replay system.
+
+Quick Joke
+
+“So if a reel song is stuck in your head during work…
+your brain has opened Spotify in background mode.”
+
+
+📱 Topic 2 — Why We Check Phones Every Few Minutes (2 min)
+Ask:
+
+“What’s the first app you open automatically after unlocking your phone?”
+
+(Team answers)
+Then say:
+
+“Phones are addictive mainly because of unpredictable rewards.”
+
+Your brain thinks:
+
+
+maybe message
+
+
+maybe meme
+
+
+maybe email
+
+
+maybe something exciting
+
+
+That “maybe” feeling triggers dopamine reward loops.
+
+Fun Comparison
+
+“It’s basically slot-machine psychology… but in your pocket.”
+
+
+Relatable Moment
+Ask:
+
+“Have you ever unlocked your phone and forgotten WHY you unlocked it?”
+
+(Big laughs usually)
+Because eventually:
+
+
+it becomes habit
+
+
+muscle memory
+
+
+boredom reflex
+
+
+
+Interesting Research
+
+“Studies show even having your phone visible nearby can reduce focus.”
+
+Even when:
+
+
+silent
+
+
+face down
+
+
+unused
+
+
+
+One-Liner
+
+“Technically our phones also attend meetings with us.”
+
+
+🌙 Topic 3 — Why Dark Mode Isn’t Always Better (1 min)
+Start with quick poll:
+
+“Dark mode users vs light mode users?”
+
+Then say:
+
+“Dark mode looks cooler… but research says light mode is often better for readability and comprehension.”
+
+Because:
+
+
+bright backgrounds help text clarity
+
+
+eyes read dark text on light backgrounds faster
+
+
+
+BUT…
+Dark mode still helps:
+
+
+low-light comfort
+
+
+battery saving on OLED screens
+
+
+reducing brightness strain at night
+
+
+
+Funny Ending
+
+“So dark mode may improve our mood more than our productivity 😄”
+
+
+🎯 Final Closing (30 sec)
+
+“So today we learned:
+
+
+our brains replay songs endlessly,
+
+
+our thumbs unlock phones automatically,
+
+
+and half of us use dark mode mostly for developer aesthetics 😄”
+
+
+
+
+Optional Final Poll
+“Which one attacked you personally today?”
+
+
+Song stuck in head
+
+
+Random phone checking
+
+
+Dark mode obsession
+
+
+
+Bonus Rapid-Fire One-Liners
+
+
+“Our thumbs have better memory than us.”
+
+
+“Phone checking is modern-day window staring.”
+
+
+“Dark mode is the hoodie of UI themes.”
+
+
+“Reel songs are malware for the brain.”
+
+
+“Sometimes we unlock phones on pure autopilot.”
+
+
+
+
 
