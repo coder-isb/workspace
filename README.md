@@ -91,7 +91,7 @@ Build expertise in MS Fabric, Databricks, Snowflake, and Data Visualization tech
 =======
 
 Ensure strong compliance and operational discipline by achieving 100% completion of mandatory organization-level compliance trainings and maintaining >=95% timesheet compliance throughout the year as per organizational requirements.
-
+(I will ensure strong compliance and operational discipline by completing 100% of mandatory organization-level compliance trainings and maintaining ≥95% timesheet compliance throughout the year, as per organizational requirements.)
 
 
 
