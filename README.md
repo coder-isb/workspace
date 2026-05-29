@@ -57,7 +57,7 @@ Drive Business and Delivery Excellence	Personal Impact	• Meet or exceed billab
 
 Scale AI Adoption and Innovation	Personal Impact	• Integrate AI into daily tasks to reduce time on low-value activities	• Embrace AI and agentic solution as part of daily activity and integrate with the solution defined for the project.
 	Building Capabilities	• Build AI, technical, domain, and consulting capabilities	"• Complete minimum 2 relevant certifications/training programs annually
-• 100% participation in AI enablement or learning initiatives within NTT Data. Example: Completion of AI (Green Belt)"
+• 100% participation in AI enablement or learning initiatives within Data. Example: Completion of AI (Green Belt)"
 
 ===
 Learn and Grow	Personal Impact	• Continuously strengthen technical, leadership, domain, and business capabilities	• Complete minimum learning hours annually as per grade
