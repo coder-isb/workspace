@@ -87,7 +87,11 @@ Drive continuous learning and professional growth by strengthening technical, le
 Contribute to team and organizational capability building by applying newly acquired knowledge in projects, sharing learnings with peers, and supporting adoption of best practices and modern data engineering solutions across engagements.
 
 Build expertise in MS Fabric, Databricks, Snowflake, and Data Visualization technologies through relevant trainings, certifications, and hands-on implementation opportunities, along with learning any additional platform or tool required for project and account success throughout the year.
+(I will ensure continuous learning and professional growth by strengthening technical, leadership, domain, and business capabilities while completing the minimum annual learning hours defined for my grade to enhance overall delivery effectiveness and career progression.
 
+I will ensure contribution to team and organizational capability building by applying newly acquired knowledge in projects, sharing learnings with peers, and supporting the adoption of best practices and modern data engineering solutions across engagements.
+
+I will ensure development of expertise in MS Fabric, Databricks, Snowflake, and Data Visualization technologies through relevant trainings, certifications, and hands-on implementation opportunities, along with learning any additional platform or tool required for project and account success throughout the year.)
 =======
 
 Ensure strong compliance and operational discipline by achieving 100% completion of mandatory organization-level compliance trainings and maintaining >=95% timesheet compliance throughout the year as per organizational requirements.
