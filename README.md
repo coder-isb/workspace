@@ -74,6 +74,12 @@ Contribute to the success of others and the Data Practice by supporting offshore
 
 Strengthen capabilities in delivery management, data architecture, engineering excellence, automation, collaboration, and continuous improvement to create measurable impact for projects, teams, and organizational goals by year-end.
 
+(I will ensure business and delivery excellence by meeting or exceeding utilization (>=82%) and billability targets while ensuring predictable and high-quality execution with >=80% sprint/milestone adherence and zero critical SLA breaches across assigned deliverables.
+
+I will ensure contribution to the success of others and the Data Practice by supporting offshore delivery commitments, participating in interview drives, hackathons, and knowledge-sharing initiatives, and collaborating with CoE teams on frameworks, accelerators, automation, and agentic AI solutions.
+
+I will ensure strengthening of capabilities in delivery management, data architecture, engineering excellence, automation, collaboration, and continuous improvement to create measurable impact for projects, teams, and organizational goals by year-end.)
+
 =========================================
 Drive AI adoption and innovation by integrating AI and agentic solutions into daily project activities to improve productivity, reduce time spent on low-value tasks, and enhance delivery efficiency across assigned responsibilities.
 
