@@ -79,7 +79,11 @@ Drive AI adoption and innovation by integrating AI and agentic solutions into da
 
 Contribute to organizational AI enablement by actively adopting project-defined AI solutions, participating in AI learning initiatives, and supporting a culture of innovation and continuous improvement within the Data Practice.
 
-Strengthen AI, technical, domain, and consulting capabilities by completing at least 2 relevant certifications or training programs annually and achieving 100% participation in Data Practice AI enablement initiatives, including programs such as AI Green Belt, to build future-ready expertise and deliver greater business value.
+Strengthen AI, technical, domain, and consulting capabilities by completing at least 2 relevant certifications or training programs annually and achieving 100% participation in Data Practice AI enablement initiatives, including programs such as AI Green Belt, to build future-ready expertise and deliver greater business value. (I will ensure AI adoption and innovation by integrating AI and agentic solutions into daily project activities to improve productivity, reduce time spent on low-value tasks, and enhance delivery efficiency across assigned responsibilities.
+
+I will ensure contribution to organizational AI enablement by actively adopting project-defined AI solutions, participating in AI learning initiatives, and supporting a culture of innovation and continuous improvement within the Data Practice.
+
+I will ensure strengthening of AI, technical, domain, and consulting capabilities by completing at least 2 relevant certifications or training programs annually and ensuring 100% participation in Data Practice AI enablement initiatives, including programs such as AI Green Belt, to build future-ready expertise and deliver greater business value.)
 ===
 
 Drive continuous learning and professional growth by strengthening technical, leadership, domain, and business capabilities while completing the minimum annual learning hours as defined for my grade to enhance overall delivery effectiveness and career progression.
