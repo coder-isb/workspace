@@ -66,6 +66,31 @@ Learn and Grow	Personal Impact	• Continuously strengthen technical, leadership
 Compliance & Mandatory Trainings	Personal Impact	•  Completion of mandatory organization level compliance training	•  100% completion of mandatory trainings
 		•  Timesheet compliance	•  >= 95% time compliance
 
+8888888888888888888888888888
+
+Drive business and delivery excellence by meeting or exceeding utilization (>=82%) and billability targets while ensuring predictable and high-quality execution with >=80% sprint/milestone adherence and zero critical SLA breaches across assigned deliverables.
+
+Contribute to the success of others and the Data Practice by supporting offshore delivery commitments, participating in interview drives, hackathons, and knowledge-sharing initiatives, and collaborating with CoE teams on frameworks, accelerators, automation, and agentic AI solutions.
+
+Strengthen capabilities in delivery management, data architecture, engineering excellence, automation, collaboration, and continuous improvement to create measurable impact for projects, teams, and organizational goals by year-end.
+
+=========================================
+Drive AI adoption and innovation by integrating AI and agentic solutions into daily project activities to improve productivity, reduce time spent on low-value tasks, and enhance delivery efficiency across assigned responsibilities.
+
+Contribute to organizational AI enablement by actively adopting project-defined AI solutions, participating in AI learning initiatives, and supporting a culture of innovation and continuous improvement within the Data Practice.
+
+Strengthen AI, technical, domain, and consulting capabilities by completing at least 2 relevant certifications or training programs annually and achieving 100% participation in Data Practice AI enablement initiatives, including programs such as AI Green Belt, to build future-ready expertise and deliver greater business value.
+===
+
+Drive continuous learning and professional growth by strengthening technical, leadership, domain, and business capabilities while completing the minimum annual learning hours as defined for my grade to enhance overall delivery effectiveness and career progression.
+
+Contribute to team and organizational capability building by applying newly acquired knowledge in projects, sharing learnings with peers, and supporting adoption of best practices and modern data engineering solutions across engagements.
+
+Build expertise in MS Fabric, Databricks, Snowflake, and Data Visualization technologies through relevant trainings, certifications, and hands-on implementation opportunities, along with learning any additional platform or tool required for project and account success throughout the year.
+
+=======
+
+Ensure strong compliance and operational discipline by achieving 100% completion of mandatory organization-level compliance trainings and maintaining >=95% timesheet compliance throughout the year as per organizational requirements.
 
 
 
