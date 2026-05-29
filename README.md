@@ -27,223 +27,46 @@ show all classes..ready to be copy pasted - hrms/
 
 
     ====
-  Start with energy:
+ 
+Help me draft up to four Integrated SMART goals.
+Consider my main roles and responsibilities: 
+• [Edit here] 
+Consider the following business and team priorities:
+• [Edit here]
+For each goal, consider the 3 dimensions of impact as 
+outlined below:
+• Clearly describe the outcome and what success 
+looks like by the end of the year
+• Identify key collaboration or contribution to others 
+needed to achieve the outcome
+• Describe the growth or capability I will build 
+through the work
+• Ensure goals are specific, measurable, achievable, 
+relevant, and time-bound
+• Present each goal in a clear, easy-to-review 
+structure suitable for discussion with my manager.
+==
+Drive Business and Delivery Excellence	Personal Impact	• Meet or exceed billability and utilization target set for the data practice	"• Utilization Target >= 82%
+• Billability Target - As defined per grade"
+	Personal Impact	• Ensure predictable and timely execution of commitments	• 80%+ milestone/sprint commitment adherence with zero critical SLA breaches
+	Contribute to Success of Others	• Meet data practice's offshore operational and delivery commitments	"• Participate in interview drive
+• Support practice initiatives like Hackathon, knowledge sharing, identifying use cases for automation/agentic solution"
+	Contribute to Success of Others	• Drive data architecture and engineering excellence, automation, and continuous improvement	• Support CoE team in building framework, accelerators and agentic solution
+
+    ===
+
+Scale AI Adoption and Innovation	Personal Impact	• Integrate AI into daily tasks to reduce time on low-value activities	• Embrace AI and agentic solution as part of daily activity and integrate with the solution defined for the project.
+	Building Capabilities	• Build AI, technical, domain, and consulting capabilities	"• Complete minimum 2 relevant certifications/training programs annually
+• 100% participation in AI enablement or learning initiatives within NTT Data. Example: Completion of AI (Green Belt)"
+
+===
+Learn and Grow	Personal Impact	• Continuously strengthen technical, leadership, domain, and business capabilities	• Complete minimum learning hours annually as per grade
+	Building Capabilities	•  Building capabilities in MS-Fabric, Databricks, Snowflake and Data Visualization	•  Complete trainings or certifications relevant to their area of interest. Example: MS-Fabric, Databricks, Snowflake and Data Visualization or any other platform/tool required in the respective project or account
+    ==
+Compliance & Mandatory Trainings	Personal Impact	•  Completion of mandatory organization level compliance training	•  100% completion of mandatory trainings
+		•  Timesheet compliance	•  >= 95% time compliance
+<img width="1476" height="361" alt="image" src="https://github.com/user-attachments/assets/282092aa-3d28-4349-8cde-57ae92596da9" />
 
-“Today’s Scrum entertainment session is basically about how our brains secretly troll us every day 😄”
-
-
-“Three things we all experience:
-
-
-Songs stuck in our head
-
-
-Checking phones without reason
-
-
-Dark mode obsession”
-
-
-
-
-🎵 Topic 1 — Why Songs Get Stuck in Your Head (1.5 min)
-Ask the team:
-
-“Has anyone had a random reel song looping in their brain recently?”
-
-(Guaranteed reactions 😄)
-Then say:
-
-“Scientists actually call this an Earworm.”
-
-Why it happens:
-
-
-repetitive lyrics
-
-
-catchy rhythm
-
-
-incomplete musical patterns
-
-
-Your brain loves finishing patterns, so it keeps replaying the song.
-
-Fun Fact
-
-“Around 90% of people experience earworms weekly.”
-
-
-Funny Research
-
-“Research says chewing gum can sometimes reduce earworms.”
-
-Because it interferes with the brain’s internal music replay system.
-
-Quick Joke
-
-“So if a reel song is stuck in your head during work…
-your brain has opened Spotify in background mode.”
-
-
-📱 Topic 2 — Why We Check Phones Every Few Minutes (2 min)
-Ask:
-
-“What’s the first app you open automatically after unlocking your phone?”
-
-(Team answers)
-Then say:
-
-“Phones are addictive mainly because of unpredictable rewards.”
-
-Your brain thinks:
-
-
-maybe message
-
-
-maybe meme
-
-
-maybe email
-
-
-maybe something exciting
-
-
-That “maybe” feeling triggers dopamine reward loops.
-
-Fun Comparison
-
-“It’s basically slot-machine psychology… but in your pocket.”
-
-
-Relatable Moment
-Ask:
-
-“Have you ever unlocked your phone and forgotten WHY you unlocked it?”
-
-(Big laughs usually)
-Because eventually:
-
-
-it becomes habit
-
-
-muscle memory
-
-
-boredom reflex
-
-
-
-Interesting Research
-
-“Studies show even having your phone visible nearby can reduce focus.”
-
-Even when:
-
-
-silent
-
-
-face down
-
-
-unused
-
-
-
-One-Liner
-
-“Technically our phones also attend meetings with us.”
-
-
-🌙 Topic 3 — Why Dark Mode Isn’t Always Better (1 min)
-Start with quick poll:
-
-“Dark mode users vs light mode users?”
-
-Then say:
-
-“Dark mode looks cooler… but research says light mode is often better for readability and comprehension.”
-
-Because:
-
-
-bright backgrounds help text clarity
-
-
-eyes read dark text on light backgrounds faster
-
-
-
-BUT…
-Dark mode still helps:
-
-
-low-light comfort
-
-
-battery saving on OLED screens
-
-
-reducing brightness strain at night
-
-
-
-Funny Ending
-
-“So dark mode may improve our mood more than our productivity 😄”
-
-
-🎯 Final Closing (30 sec)
-
-“So today we learned:
-
-
-our brains replay songs endlessly,
-
-
-our thumbs unlock phones automatically,
-
-
-and half of us use dark mode mostly for developer aesthetics 😄”
-
-
-
-
-Optional Final Poll
-“Which one attacked you personally today?”
-
-
-Song stuck in head
-
-
-Random phone checking
-
-
-Dark mode obsession
-
-
-
-Bonus Rapid-Fire One-Liners
-
-
-“Our thumbs have better memory than us.”
-
-
-“Phone checking is modern-day window staring.”
-
-
-“Dark mode is the hoodie of UI themes.”
-
-
-“Reel songs are malware for the brain.”
-
-
-“Sometimes we unlock phones on pure autopilot.”
 
 
 
