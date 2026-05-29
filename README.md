@@ -65,7 +65,6 @@ Learn and Grow	Personal Impact	• Continuously strengthen technical, leadership
     ==
 Compliance & Mandatory Trainings	Personal Impact	•  Completion of mandatory organization level compliance training	•  100% completion of mandatory trainings
 		•  Timesheet compliance	•  >= 95% time compliance
-<img width="1476" height="361" alt="image" src="https://github.com/user-attachments/assets/282092aa-3d28-4349-8cde-57ae92596da9" />
 
 
 
